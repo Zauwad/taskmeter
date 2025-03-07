@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBoard</title>
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+
+</head>
+<body class="px-40 py-5 bg-blue-50">
+
+    <nav class="nav-bar flex justify-between bg-white rounded-xl p-4 mb-5">
+        <div class="left-side flex items-center gap-3">
+            <img src="A5-Dev-Board/assets/logo.png" alt="">
+            <h1 class="text-xl gap-0">Dev <span class="font-bold">Board</span></h1>
+        </div>
+        <div class="right-side flex gap-6 items-center">
+            <div class="left-side flex items-center gap-2 bg-purple-50 rounded-xl px-2">
+                <div class="form-control">
+                    <label class="cursor-pointer label">
+                      <input type="checkbox" checked="checked" class="checkbox checkbox-info" />
+                    </label>
+                  </div>
+                  <p id="nav-checkbox" class="checkbox-number font-bold">23</p>
+            </div>
+            <div class="right-side rounded-full">
+                <button id="changeThemeButton" class="bg-purple-50 rounded-full btn">
+                    <img src="A5-Dev-Board/assets/theme-btn.png" alt="">
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+    <section class="WHOLE-MAIN-PART flex space-x-5">
+
+            <section class="LEFT-SIDE w-3/4 bg-white p-3 rounded-xl space-y-8">
+            
+                <div class="upper-side flex gap-4 justify-between">
+    
+                    <div class="left-side flex items-center gap-5 p-6 bg-purple-50 rounded-xl w-1/4">
+                        <div class="check-box bg-white rounded-full p-2">
+                            <div class="form-control">
+                                <label class="cursor-pointer label">
+                                  <input type="checkbox" checked="checked" class="checkbox checkbox-info" />
+                                </label>
+                            </div>
+                        </div>
+                        <div class="texts">
+                            <p>Task Assigned</p>
+                            <p id="task-assigned" class="font-bold">6</p>
+                        </div>
+                        
+                    </div>
+                    
+                    <a class="mid-side" href="blog.html" class="w-2/4">
+                        <div class="flex items-center bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl p-6 space-x-5 justify-center">
+                            <div>
+                                <img src="A5-Dev-Board/assets/board.png" alt="">
+                            </div>
+                            <div>
+                                <h1 class="text-white font-semibold">DISCORVER SOMETHING NEW TODAY!</h1>
+                            </div>
+                        </div>
+                    </a>
+    
+                    <div class="right-side flex items-center gap-5 bg-purple-50 p-6 rounded-xl w-1/4">
+                        <div class="bg-white rounded-full p-2">
+                            <img src="A5-Dev-Board/assets/calender.png" alt="">
+                        </div>
+                        <div>
+                            <p id="today-time">Tue Feb 25 2025</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="bottom-side grid grid-cols-3 bg-white space-x-5 space-y-5">
+    
+    
+                    <div class="box-1 bg-purple-50 p-5 space-y-3 rounded-xl">
+                        <div class="bg-white rounded-3xl text-center w-1/3">
+                            <p class="text-lg">Shop Ease</p>
+                        </div>
+                        <h1 id="item-1" class="font-bold text-xl">Fix Mobile Button Issue</h1>
+                        <p class="bg-white p-2 rounded-lg text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet ipsam atque aspernatur sunt ipsum odio quam consectetur cumque eum?</p>
+                        <div class="bottom flex justify-between">
+                            <div>
+                                <p class="text-gray-500">Deadline</p>
+                                <p>21 March 2025</p>
+                            </div>
+                            <button id="btn-completed 1" class="btn btn-primary ">Completed</button>
+                        </div>
+                    </div>
+    
+    
+                    <div class="box-2 bg-purple-50 p-5 space-y-3 rounded-xl">
+                        <div class="bg-white rounded-3xl text-center w-1/3">
+                            <p class="text-lg">Soft pay</p>
+                        </div>
+                        <h1 id="item-2" class="font-bold text-xl">Add Pay Success Modal</h1>
+                        <p class="bg-white p-2 rounded-lg text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet ipsam atque aspernatur sunt ipsum odio quam consectetur cumque eum?</p>
+                        <div class="bottom flex justify-between">
+                            <div>
+                                <p class="text-gray-500">Deadline</p>
+                                <p>21 March 2025</p>
+                            </div>
+                            <button id="btn-completed 2" class="btn btn-primary">Completed</button>
+                        </div>
+                    </div>
+    
+    
+                    <div class="box-3 bg-purple-50 p-5 space-y-3 rounded-xl">
+                        <div class="bg-white rounded-3xl text-center w-1/3">
+                            <p class="text-lg">Meta</p>
+                        </div>
+                        <h1 id="item-3" class="font-bold text-xl">Add new reaction</h1>
+                        <p class="bg-white p-2 rounded-lg text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet ipsam atque aspernatur sunt ipsum odio quam consectetur cumque eum?</p>
+                        <div class="bottom flex justify-between">
+                            <div>
+                                <p class="text-gray-500">Deadline</p>
+                                <p>21 March 2025</p>
+                            </div>
+                            <button id="btn-completed 3" class="btn btn-primary">Completed</button>
+                        </div>
+                    </div>
+    
+    
+                    <div class="box-4 bg-purple-50 p-5 space-y-3 rounded-xl">
+                        <div class="bg-white rounded-3xl text-center w-1/3">
+                            <p class="text-lg">Programmin Hero</p>
+                        </div>
+                        <h1 id="item-4" class="font-bold text-xl">Fix Video Loading Issue</h1>
+                        <p class="bg-white p-2 rounded-lg text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet ipsam atque aspernatur sunt ipsum odio quam consectetur cumque eum?</p>
+                        <div class="bottom flex justify-between">
+                            <div>
+                                <p class="text-gray-500">Deadline</p>
+                                <p>21 March 2025</p>
+                            </div>
+                            <button id="btn-completed 4" class="btn btn-primary">Completed</button>
+                        </div>
+                    </div>
+    
+    
+                    <div class="box-5 bg-purple-50 p-5 space-y-3 rounded-xl">
+                        <div class="bg-white rounded-3xl text-center w-1/3">
+                            <p class="text-lg">Google LLC</p>
+                        </div>
+                        <h1 id="item-5" class="font-bold text-xl">Integrate AI Search</h1>
+                        <p class="bg-white p-2 rounded-lg text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet ipsam atque aspernatur sunt ipsum odio quam consectetur cumque eum?</p>
+                        <div class="bottom flex justify-between">
+                            <div>
+                                <p class="text-gray-500">Deadline</p>
+                                <p>21 March 2025</p>
+                            </div>
+                            <button id="btn-completed 5" class="btn btn-primary">Completed</button>
+                        </div>
+                    </div>
+    
+    
+                    <div class="box-6 bg-purple-50 p-5 space-y-3 rounded-xl">
+                        <div class="bg-white rounded-3xl text-center w-1/3">
+                            <p class="text-lg">Polygon Tech</p>
+                        </div>
+                        <h1 id="item-6" class="font-bold text-xl">Fix new kind of Issue</h1>
+                        <p class="bg-white p-2 rounded-lg text-gray-400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet ipsam atque aspernatur sunt ipsum odio quam consectetur cumque eum?</p>
+                        <div class="bottom flex justify-between">
+                            <div>
+                                <p class="text-gray-500">Deadline</p>
+                                <p>21 March 2025</p>
+                            </div>
+                            <button id="btn-completed 6" class="btn btn-primary">Completed</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+    
+    
+            <section id="right-side" class="RIGHT-SIDE bg-white text-center space-y-5 py-5 w-1/4 rounded-lg">
+                <div class="flex justify-center">
+                    <div class="flex gap-5">
+                        <div><img src="A5-Dev-Board/assets/activity.png" alt=""></div>
+                        <p>Activity Log</p>
+                    </div>
+                </div>
+                <button id="clear-history" class="btn btn-primary">Clear History</button>
+                <p class="text-gray-200"">-----------------------------------------------------------</p>
+                <div id="activity-log" class="space-y-5">
+                    
+                </div>
+            </section>
+
+        </section>
+    </main>
+
+
+
+    <script src="scripts.js/script.js"></script>
+</body>
+</html>

@@ -1,3 +1,3 @@
 Live Website
 
-https://zauwad.github.io/taskmeter/
+https://taskmeterbyzawad.netlify.app
